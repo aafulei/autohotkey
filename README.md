@@ -62,4 +62,4 @@ Or `Run`
 shell:startup
 ```
 
-Drop [`start.ahk`](./start.ahk) into the startup folder.
+Create a shortcut in the startup folder pointing to the [`start.ahk`](./start.ahk).
