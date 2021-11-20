@@ -27,6 +27,12 @@
 ;
 ;           - Win + C ---> Ctrl + C
 ;
+; Rule 5. Escape to Delete
+;
+;           - Original Escape ---> Delete
+;
+; * Ideally, should map Eject key to Delete key, but that's hard and I'm lazy.
+;
 ; -----------------------------------------------------------------------------
 ; Symbols
 ; -----------------------------------------------------------------------------
@@ -38,6 +44,13 @@
 ; Reference: https://www.autohotkey.com/docs/KeyList.htm
 
 SetCapslockState AlwaysOFF
+
+; -----------------------------------------------------------------------------
+; Rule 5. Escape to Delete
+; -----------------------------------------------------------------------------
+
+; Original Escape ---> Delete
+Esc::Send {Delete}
 
 ; -----------------------------------------------------------------------------
 ; Rule 4. Reinforcement

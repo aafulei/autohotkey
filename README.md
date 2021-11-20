@@ -48,6 +48,10 @@ For example,
 
 - <kbd>Win</kbd> + <kbd>C</kbd> ⟶ <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
+### Rule 5. Escape to Delete
+
+- Original <kbd>Esc</kbd> ⟶ <kbd>Delete</kbd>
+
 ## Install
 
 Open
