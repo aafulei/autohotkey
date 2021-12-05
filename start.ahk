@@ -49,8 +49,8 @@ SetCapslockState AlwaysOFF
 ; Rule 5. Escape to Delete
 ; -----------------------------------------------------------------------------
 
-; Original Escape ---> Delete
-Esc::Send {Delete}
+; Original Escape ---> Delete (prefix $ is needed to avoid recursive mapping)
+$Esc::Send {Delete}
 
 ; -----------------------------------------------------------------------------
 ; Rule 4. Reinforcement
