@@ -22,6 +22,7 @@
 ;
 ;           - Win + Ctrl + Q ---> Lock Screen like macOS
 ;           - Win + Ctrl + R ---> Empty Recycle Bin
+;           - Win + Ctrl + Enter ---> Maximize Active Window
 ;
 ; Rule 4. Reinforcement
 ;
@@ -68,6 +69,9 @@ $Esc::Send {Delete}
 
 ; empty Recycle Bin
 #^R::FileRecycleEmpty
+
+; maximize active window
+#^Enter::WinMaximize, A
 
 ; -----------------------------------------------------------------------------
 ; Rule 2. CapsLock Compensation
